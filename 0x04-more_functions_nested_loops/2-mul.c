@@ -8,7 +8,7 @@
  * Return: the result of a and b
  */
 
-int mul(int a, int b)
+int _mul(int a, int b)
 {
 	return (a*b);
 }
