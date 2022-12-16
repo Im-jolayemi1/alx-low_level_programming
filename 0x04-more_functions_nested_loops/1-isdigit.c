@@ -2,16 +2,16 @@
 
 /**
  * _isdigit - check for a digit
- * @c: int to be checked
+ * @x: int to be checked
  *
  * Return: 1 if the condition is true
  */
 
-int _isdigit(int c)
+int _isdigit(int x)
 {
-	int c;
+	int x;
 
-	if (c >= 48 && c <= 57)
+	if (x >= 48 && x <= 57)
 	{
 		return (1);
 	}
